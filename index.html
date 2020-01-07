@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="page.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>EyeTech by Nataliia Kulieshova</title>
+</head>
+<body>
+    <h1 class="text" id="h1name"> <img src="logo_eyetech.png" id="logo" onclick="eyetech()"> EYETECH<br></h1>
+    <h4 class="text" id="byme">made by Nataliia Kulieshova</h4>
+    <div class="background" id="all">
+        <div class ="video" id ="video1">
+            <video autoplay loop class="video" id="video_demo">
+                <source src="human.mp4" type="video/mp4">
+                 Sorry, your browser does not support HTML5 video.
+               </video>
+        </div>
+
+        <div class="info" section id="info_section">
+            <h1 id="infoname"><strong>Технологія EYETECH</strong></h1>
+            <p id="information">Веб-додаток EYETECH (з англ. "eye"- око, "tech" - скорочено від 
+            "technology" - технологія) - це комп'ютерна імітація тваринного 
+            зору у режимі реального часу. <br> <br>
+            Даний додаток дає можливість переглянути світ очами чотирьох тварин: собаки, змії, коня та горобця. <br> <br>
+            А засвоєвши матеріал, учні можуть перевірити свої знання з теми <strong><em>"Тваринний зір"</em></strong>, пройшовши невелиикий тест нижче на сторінці.
+            </p>
+        </section>
+        </div>
+
+    <section id="overlay"></section>   
+    <section id="horse_vision"></section>
+  
+        <img src="logo_eyetech.png" class="images button" id="cancel" onclick="eyetech()">
+
+        <img src="sparrow.png" class="images button" id="sparrow" onclick="infoSparrow()">
+
+        <img src="button_horse.png" class="images button" id="horse" onclick="infoHorse()">
+
+        <img src="button_snake.png" class="images button" id="snake" onclick="infoSnake()">
+
+        <img src="button_dog.png" class="images button" id="dog" onclick="infoDog()">
+
+    <section id="quiz_section">
+        <div class="grid">
+            <div id="quiz">
+                <section id="quiz_banner">
+                    <h1 class="text1" id="name_quiz"> Перевір свої знання</h1> 
+                </section>
+                
+                <p id="question" class="text1"></p>
+     
+                <div class="buttons">
+                    <button id="btn0"><span id="choice0" class="text1"></span></button>
+                    <button id="btn1"><span id="choice1" class="text1"></span></button>
+                    <button id="btn2"><span id="choice2" class="text1"></span></button>
+                    <button id="btn3"><span id="choice3" class="text1"></span></button>
+                </div>    
+                <footer>
+                    <p id="progress" class="text1">Question x of y</p>
+                </footer>
+            </div>
+            <p id="grade2" class="text1"></p>
+        </div>
+    </section>
+    <script src="page.js"></script>
+</body>
+</html>
