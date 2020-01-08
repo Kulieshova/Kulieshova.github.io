@@ -34,8 +34,8 @@ body {
     background-color: #f55f084f;
     position: relative;
     z-index: 50;
-    top: -948px;
-    left: 60px;
+    top: -947px;
+    left: 59px;
     visibility: hidden;
     filter: blur(2px);
 }
