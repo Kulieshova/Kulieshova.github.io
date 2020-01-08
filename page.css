@@ -3,9 +3,10 @@ body {
     z-index: 1;
     background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); 
     margin-bottom: 6vh;
     top: -24vh;
+    width: auto;
 }
 
 #logo {
@@ -30,7 +31,7 @@ body {
 #overlay {
     height: 361px;
     width: 481px;
-    background-color: #f3cc4b63;
+    background-color: #f55f084f;
     position: relative;
     z-index: 50;
     top: -948px;
@@ -103,8 +104,8 @@ body {
     height: 500px;
 }
 .images {
-    height: 100px;
-    width: 100px;
+    height: 85px;
+    width: 85px;
     border-radius: 100px;
     margin: 0px 15px 30px 15px;
     position: relative;
@@ -114,29 +115,36 @@ body {
 }
 
 #cancel {
-    left: -5px;
+    left: -15px;
     top: -1290px;
 }
 
 #sparrow {
-    left: -20px;
+    left: -30px;
     top: -1290px;
     border: solid 1px turquoise;
 }
 
 #horse {
-    left: -40px;
+    left: -50px;
     top: -1290px;
 }
 
 #snake {
-    left: -60px;
+    left: -70px;
     top: -1290px;
 }
 
 #dog {
-    left: -80px;
+    left: -90px;
     top: -1290px;
+}
+
+#cow {
+    left: -110px;
+    top: -1290px;
+    border-radius: 100px;
+    border: solid 1px #9446b8;;
 }
 
 .images:hover {

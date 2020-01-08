@@ -52,6 +52,20 @@ function infoSparrow()
     video.style.filter = "grayscale(0)";
 }
 
+// Cow's vision
+function infoCow()
+{
+    infoName.innerHTML = "Корова";
+    information.innerHTML = "Корови - дальтоніки особливі . Вони здатні бачити лише у червоно-помаранчевих кольорах. До речі, мало хто знає, але у кориді червоне полотно застосовується виключно для залучення поглядів глядачів, а не бика, так як бики, також як і корови, через їх дальтонізм просто не здатні розрізнити чи то синім, чи то червоним кольором забарвлене полотно. А їх лють виникає виключно із-за того, що перед ними махають якоюсь незрозумілою ганчіркою.";
+    human.play();
+    infobg.style.backgroundImage = "";
+    overlay.style.backgroundColor = "#f55f084f";
+    overlay.style.visibility = "visible";
+    horseVision.style.visibility = "hidden";
+    video.style.filter = "saturate(0)";
+    video.style.filter = "grayscale(0)";
+}
+
 // Horse's vision
 function infoHorse()
 {
