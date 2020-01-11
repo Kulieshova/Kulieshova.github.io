@@ -222,6 +222,7 @@ body {
 #progress {
     color: #2b2b2b;
     font-size: 18px;
+    text-align: center;
 }
 
 #results {
