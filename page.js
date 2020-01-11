@@ -6,7 +6,7 @@ if (navigator.mediaDevices.getUserMedia) {
       video.srcObject = stream;
     })
     .catch(function (err0r) {
-      console.log("Something went wrong!");
+      console.log("Oopsie! Camera access denied.");
     });
 }
 

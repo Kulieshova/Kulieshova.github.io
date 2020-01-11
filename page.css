@@ -4,9 +4,8 @@ body {
     background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); 
-    margin-bottom: 6vh;
-    top: -24vh;
     width: auto;
+    padding: 0px;
 }
 
 #logo {
@@ -23,8 +22,8 @@ body {
     height: 360px;
     width: 640px;
     position: relative;
-    left: -60px;
-    top: -30px;
+    left: -40px;
+    top: -93px;
     z-index: 1;
 }
 
@@ -34,8 +33,8 @@ body {
     background-color: #f55f084f;
     position: relative;
     z-index: 50;
-    top: -947px;
-    left: 59px;
+    top: -1075px;
+    left: 100px;
     visibility: hidden;
     filter: blur(2px);
 }
@@ -46,8 +45,8 @@ body {
     background-color: #000000;
     position: relative;
     z-index: 50;
-    top: -1308px;
-    left: 270px;
+    top: -1434px;
+    left: 300px;
     visibility: hidden;
 }
 
@@ -55,7 +54,6 @@ body {
     font-family: 'Comfortaa', cursive;
     text-align: center;
     position: relative;
-    top: 9vh;
 }
 
 .text1 {
@@ -64,13 +62,12 @@ body {
 
 #h1name {
     font-size: 75px;
-    top: 160px;
     color: cornsilk;
 }
 
 #byme {
     font-size: 25px;
-    top: 110px;
+    top: -40px;
 }
 
 .info {
@@ -83,7 +80,7 @@ body {
     box-shadow: 0px 7px 25px 3px 	#b5b6b483;
     position: relative;
     left: 630px;
-    top: -430px;
+    top: -550px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -98,10 +95,11 @@ body {
 }
 .background {
     background-color: rgba(255, 153, 0, 0);
-    padding: 0px;
-    margin: 5px auto;
+    margin: auto;
     width: 1150px;
-    height: 500px;
+    height: 400px;
+    position: relative;
+    top: 0px;
 }
 .images {
     height: 85px;
@@ -115,34 +113,37 @@ body {
 }
 
 #cancel {
-    left: -15px;
-    top: -1290px;
+    left: 515px;
+    top: -1835px;
+    height: auto;
+    width: 40px;
+    z-index: 11111111111;
 }
 
 #sparrow {
-    left: -30px;
-    top: -1290px;
+    left: 10px;
+    top: -1420px;;
     border: solid 1px turquoise;
 }
 
 #horse {
-    left: -50px;
-    top: -1290px;
+    left: -10px;
+    top: -1420px;
 }
 
 #snake {
-    left: -70px;
-    top: -1290px;
+    left: -30px;
+    top: -1420px;
 }
 
 #dog {
-    left: -90px;
-    top: -1290px;
+    left: -50px;
+    top: -1420px;
 }
 
 #cow {
-    left: -110px;
-    top: -1290px;
+    left: -70px;
+    top: -1420px;
     border-radius: 100px;
     border: solid 1px #9446b8;;
 }
@@ -157,20 +158,21 @@ body {
 }
 
 #quiz_section {
-    background-color: #ffffff;
-    margin: 0px;
+    background-color: #ffffff00;
     position: relative; 
-    width: 100%;
+    width: auto;
     height: 700px;
-    top: -1200px;
-}
+    }
 
 .grid {
-    width: auto;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-    background-color: #fff;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    background-color: #ffffff;
     padding: 10px;
+    margin-left: -0.8%;
 }
 
 #quiz_banner {
