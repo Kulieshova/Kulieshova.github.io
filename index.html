@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" type="text/css" href="page.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <title>EyeTech by Nataliia Kulieshova</title>
@@ -13,7 +17,9 @@
             <video autoplay loop class="video" id="video_demo">
                 <source src="human.mp4" type="video/mp4">
                  Sorry, your browser does not support HTML5 video.
-               </video>
+            </video>
+                <section id="overlay"></section>   
+                <section id="horse_vision"></section>
         </div>
 
         <div class="info" section id="info_section">
@@ -27,9 +33,6 @@
         </section>
         </div>
 
-    <section id="overlay"></section>   
-    <section id="horse_vision"></section>
-  
         <img src="cancel.png" class="images button" id="cancel" onclick="eyetech()">
 
         <img src="sparrow.png" class="images button" id="sparrow" onclick="infoSparrow()">

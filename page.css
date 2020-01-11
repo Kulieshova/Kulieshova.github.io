@@ -10,43 +10,48 @@ body {
 
 #logo {
     position: relative;
-    height: 11vh;
-    width: 11vh;
+    width: 5%;
+    height: auto;
     top: 10px;
     left: 10px;
 }
 
 .video {
-    background-color: #fee1dd00;
-    margin: 100px 0px 30px 50px;
+    background-color: #ff1e0000;
     height: 360px;
-    width: 640px;
+    width: 480px;
     position: relative;
-    left: -40px;
-    top: -93px;
+    left: 100px;
+    top: -35px;
     z-index: 1;
+    overflow: hidden;
+}
+
+#video_demo {
+    left: 0px;
+    top: 0px;
 }
 
 #overlay {
-    height: 361px;
-    width: 481px;
+    height: 500px;
+    width: 500px;
     background-color: #f55f084f;
     position: relative;
-    z-index: 50;
-    top: -1075px;
-    left: 100px;
+    z-index: 111111111;
+    top: -450px;
+    left: 0px;
     visibility: hidden;
     filter: blur(2px);
 }
 
 #horse_vision {
-    height: 360px;
+    height: 400px;
     width: 100px;
     background-color: #000000;
     position: relative;
-    z-index: 50;
-    top: -1434px;
-    left: 300px;
+    z-index: 2222222222;
+    top: -900px;
+    left: 210px;
     visibility: hidden;
 }
 
@@ -80,7 +85,7 @@ body {
     box-shadow: 0px 7px 25px 3px 	#b5b6b483;
     position: relative;
     left: 630px;
-    top: -550px;
+    top: -500px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -113,8 +118,8 @@ body {
 }
 
 #cancel {
-    left: 515px;
-    top: -1835px;
+    left: 520px;
+    top: -1065px;
     height: auto;
     width: 40px;
     z-index: 11111111111;
@@ -122,28 +127,28 @@ body {
 
 #sparrow {
     left: 10px;
-    top: -1420px;;
+    top: -650px;
     border: solid 1px turquoise;
 }
 
 #horse {
     left: -10px;
-    top: -1420px;
+    top: -650px;
 }
 
 #snake {
     left: -30px;
-    top: -1420px;
+    top: -650px;
 }
 
 #dog {
     left: -50px;
-    top: -1420px;
+    top: -650px;
 }
 
 #cow {
     left: -70px;
-    top: -1420px;
+    top: -650px;
     border-radius: 100px;
     border: solid 1px #9446b8;;
 }
@@ -169,7 +174,7 @@ body {
     height: auto;
     margin: 0px;
     position: relative;
-    top: 40px;
+    top: 100px;
     background-color: #ffffff;
     padding: 10px;
     margin-left: -0.8%;
