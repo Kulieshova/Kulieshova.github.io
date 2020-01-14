@@ -19,8 +19,8 @@
 
     .video {
         background-color: #ff1e0000;
-        height: 360px;
-        width: 480px;
+        height: 180px;
+        width: 240px;
         position: relative;
         top: -35px;
         z-index: 1;
@@ -100,8 +100,8 @@
     }
 
     .images {
-        height: 85px;
-        width: 85px;
+        height: 40px;
+        width: 40px;
         border-radius: 100px;
         position: relative;
         transition: all .2s ease-in-out;
@@ -109,16 +109,16 @@
     }
 
     .buttons1 {
-        width: 500px;
+        width: 250px;
         margin: 0px auto;
-        background-color: #9446b800;
+        /* background-color: #ae00ff; */
     }
 
     #cancel {
-        left: 435px;
+        left: 220px;
         height: auto;
-        width: 40px;
-        top: -430px;
+        width: 20px;
+        top: -230px;
         z-index: 11111111111;
     }
 
@@ -184,7 +184,7 @@
         background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        font-size: 60px;
+        font-size: 30px;
         text-align: center;
         color: #ffffff;
         padding: 2px 0px;
@@ -205,7 +205,6 @@
      
     .buttons {
         margin: 0px auto;
-        background-color: #9446b8;
     }
      
     #btn0, #btn1, #btn2, #btn3 {
@@ -235,7 +234,7 @@
         background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        font-size: 60px;
+        font-size: 30px;
         color: #ffffff;
         padding: 30px;
         border-radius: 15px;

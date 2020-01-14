@@ -203,7 +203,7 @@ function showScores() {
     // Generating gif and feedback based on the user's score
     for(i=0; i<grading.length; i++) {
         if(quiz.score == grading[i].score) {
-            result2 = "<img src='" + grading[i].image + "' height='450'/><br>" + grading[i].feedback;
+            result2 = "<img src='" + grading[i].image + "' width='60%''/><br>" + grading[i].feedback;
             }
     }
     

@@ -205,17 +205,16 @@
     }
 
     .buttons {
-        margin: 30px auto;
-        width: 1175px;
+        margin: 0px auto;
     }
 
     #btn0, #btn1, #btn2, #btn3 {
         background-color: #01BBFF;
-        width: 250px;
+        width: 240px;
         font-size: 20px;
         color: #fff;
         border-radius: 10px;
-        margin: 10px 40px 10px 0px;
+        margin: 5px;
         padding: 5px;
     }
 
