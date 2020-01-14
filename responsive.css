@@ -21,16 +21,25 @@
 
     .video {
         background-color: #ff1e0000;
+<<<<<<< HEAD
         width: 90%;
         height: 90%;
+=======
+        /* height: 180px; */
+        width: 90%;
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
         position: relative;
         top: -35px;
         z-index: 1;
         overflow: hidden;
+<<<<<<< HEAD
     }
 
     #video1 {
         overflow: hidden;
+=======
+        margin: 0 auto;
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
 
     .text {
@@ -111,7 +120,10 @@
         position: relative;
         transition: all .2s ease-in-out;
         margin: 0px;
+<<<<<<< HEAD
         z-index: 7777777777;
+=======
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
 
     .buttons1 {
@@ -133,23 +145,43 @@
 
     #sparrow {
         left: 10px;
+<<<<<<< HEAD
+=======
+        top: 0px;
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
         border: solid 1px turquoise;
     }
     
     #horse {
         left: 15px;
+<<<<<<< HEAD
+=======
+        /* top: -970px; */
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
     
     #snake {
         left: 20px;
+<<<<<<< HEAD
+=======
+        /* top: -970px; */
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
     
     #dog {
         left: 25px;
+<<<<<<< HEAD
+=======
+        /* top: -970px; */
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
     
     #cow {
         left: 30px;
+<<<<<<< HEAD
+=======
+        /* top: -970px; */
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
         border-radius: 100px;
         border: solid 1px #9446b8;;
     }
@@ -164,6 +196,10 @@
     }
 
     .video_buttons{
+<<<<<<< HEAD
+=======
+        overflow: visible;
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
         margin-left: 7%;
     }
 
@@ -253,3 +289,12 @@
         margin: 0px auto;
     }
 }
+<<<<<<< HEAD
+=======
+
+/* Media Queries: Tabled Portrait
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+} */
+>>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715

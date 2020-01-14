@@ -1,4 +1,6 @@
+
 /* @media (min-width:1061px) { */
+
     body {
         position: relative;
         z-index: 1;
@@ -7,6 +9,7 @@
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         width: auto;
         margin: 0px;
+
     }
 
     #logo {
