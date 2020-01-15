@@ -64,19 +64,18 @@
         position: relative;
         z-index: 9111111111;
         top: -550px;
-        /* left: 0px; */
         visibility: hidden;
         filter: blur(2px);
     }
 
     #horse_vision {
-        height: 1500px;
+        height: 2000px;
         width: 20%;
         background-color: #000000;
         position: relative;
         z-index: 2222222222;
         margin: 0px auto;
-        top: -1850px;
+        top: -2350px;
         visibility: hidden;
     }
 
