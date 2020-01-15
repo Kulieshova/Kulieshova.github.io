@@ -63,8 +63,8 @@
         background-color: #f55f084f;
         position: relative;
         z-index: 111111111;
-        top: -450px;
-        left: 0px;
+        /* top: -450px; */
+        /* left: 0px; */
         visibility: hidden;
         filter: blur(2px);
     }
@@ -76,7 +76,7 @@
         position: relative;
         z-index: 2222222222;
         margin: 0px auto;
-        top: -900px;
+        /* top: -900px; */
         visibility: hidden;
     }
 
@@ -279,7 +279,7 @@
     .gifs1 {
         width: 80%;
         position: relative;
-        top: -40px;
+        /* top: -40px; */
     }
 
     .gif {
