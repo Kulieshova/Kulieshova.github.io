@@ -1,5 +1,5 @@
-
-/* @media (min-width:1061px) { */
+/* Media Queries: Laptop */
+@media (min-width:1061px) {
 
     body {
         position: relative;
@@ -261,9 +261,17 @@
         border-radius: 15px;
     }
 
+    .gifs1 {
+        height: 300px;
+    }
+
+    .gif {
+        width: 450px;
+    }
+
     #grade2{
         font-size: 24px;
         text-align: center;
         margin: 0px auto;
     }
- /* }     */
+ }

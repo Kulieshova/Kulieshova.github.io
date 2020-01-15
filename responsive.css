@@ -20,26 +20,17 @@
     }
 
     .video {
-        background-color: #ff1e0000;
-<<<<<<< HEAD
-        width: 90%;
-        height: 90%;
-=======
-        /* height: 180px; */
-        width: 90%;
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        /* background-color: #ff1e00; */
+        width: 100%;
         position: relative;
-        top: -35px;
+        top: 0px;
         z-index: 1;
         overflow: hidden;
-<<<<<<< HEAD
+        margin: 0px auto;
     }
 
     #video1 {
-        overflow: hidden;
-=======
-        margin: 0 auto;
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        height: 280px;
     }
 
     .text {
@@ -63,8 +54,7 @@
     }
 
     #video_demo {
-        left: 0px;
-        top: 0px;
+        width: 100%;
     }
 
     #overlay {
@@ -81,31 +71,36 @@
 
     #horse_vision {
         height: 400px;
-        width: 100px;
+        width: 20%;
         background-color: #000000;
         position: relative;
         z-index: 2222222222;
+        margin: 0px auto;
         top: -900px;
-        left: 210px;
         visibility: hidden;
     }
 
     .info {
-        background-color: #effdff;
-        margin: 0px auto;
-        border: solid #c6f9ff 1px;
-        border-radius: 5px;
-        width: 97%;
+        background-color: #ffffff;
+        /* margin: 0px auto; */
+        /* border: solid #c6f9ff 1px; */
+        /* border-radius: 5px; */
+        width: 100%;
         height: auto;
         position: relative;
         font-family: 'Comfortaa', cursive;
-        text-align: center;
-        top: -910px;
+        text-align: left;
+        margin-top: 15px;
+        /* padding: 5px; */
+        /* top: -910px; */
     }
 
     #infoname {
         text-align: center;
+        position: relative;
         font-size: 25px;
+        top: 10px;
+
     }
     
     #information {
@@ -113,75 +108,61 @@
         margin: 20px;
     }
 
+    .background {
+        /* background-color: rgb(72, 255, 0); */
+        margin: auto;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
     .images {
         /* height: 40px; */
-        width: 15%;
+        width: 18%;
         border-radius: 100px;
         position: relative;
         transition: all .2s ease-in-out;
         margin: 0px;
-<<<<<<< HEAD
         z-index: 7777777777;
-=======
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
 
     .buttons1 {
         position: relative;
-        width: 85%;
+        width: 100%;
         margin: 0px auto;
         /* background-color: #ae00ff; */
-        top: -965px;
+        /* top: -965px; */
         left: -10px;
     }
 
     #cancel {
-        left: 250px;
+        float: left;
         height: auto;
         width: 7%;
-        top: -1115px;
+        top: -1200px;
         z-index: 11111111111;
+        margin: 10px;
     }
 
     #sparrow {
-        left: 10px;
-<<<<<<< HEAD
-=======
-        top: 0px;
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        left: 20px;
         border: solid 1px turquoise;
     }
     
     #horse {
-        left: 15px;
-<<<<<<< HEAD
-=======
-        /* top: -970px; */
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        left: 20px;
     }
     
     #snake {
         left: 20px;
-<<<<<<< HEAD
-=======
-        /* top: -970px; */
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
     }
     
     #dog {
-        left: 25px;
-<<<<<<< HEAD
-=======
-        /* top: -970px; */
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        left: 20px;
     }
     
     #cow {
-        left: 30px;
-<<<<<<< HEAD
-=======
-        /* top: -970px; */
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
+        left: 20px;
         border-radius: 100px;
         border: solid 1px #9446b8;;
     }
@@ -195,12 +176,8 @@
         transform: scale(1.1);
     }
 
-    .video_buttons{
-<<<<<<< HEAD
-=======
-        overflow: visible;
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
-        margin-left: 7%;
+    .video_buttons {
+        margin-left: 0px;
     }
 
     #quiz_section {
@@ -208,17 +185,18 @@
         position: relative; 
         width: auto;
         height: auto;
-        top: -800px;
+        /* margin-top: 15px; */
+        /* top: -800px; */
         }
     
     .grid {
-        width: 94%;
+        width: 100%;
         height: auto;
         margin: 0px auto;
         position: relative;
         top: 0px;
         background-color: #ffffff;
-        padding: 10px;
+        /* padding: 10px; */
     }
     
     #quiz_banner {
@@ -226,10 +204,14 @@
         background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         font-size: 30px;
+        width: 95%;
+        margin: 0px auto;
         text-align: center;
+        position: relative;
         color: #ffffff;
-        padding: 2px 0px;
-        border-radius: 15px;
+        /* padding: 2px 0px; */
+        border-radius: 10px;
+        top: 5px;
     }
      
     #score {
@@ -259,17 +241,24 @@
         margin: 5px;
         padding: 5px;
     }
+
+    #name_quiz{
+        margin: 0px auto;
+    }
      
     #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
         cursor: pointer;
         background-color: #00eeff;
     }
-    
      
     #progress {
         color: #2b2b2b;
         font-size: 18px;
         text-align: center;
+        margin: 0px;
+        margin-top: 30px;
+        position: relative;
+        top: -10px;
     }
     
     #results {
@@ -279,8 +268,22 @@
         background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         font-size: 30px;
         color: #ffffff;
-        padding: 30px;
-        border-radius: 15px;
+        /* padding: 30px; */
+        border-radius: 10px;
+        width: 90%;
+        margin: 0px auto;
+        position: relative;
+        top: 10px;
+    }
+
+    .gifs1 {
+        width: 80%;
+        position: relative;
+        top: -40px;
+    }
+
+    .gif {
+        width: 90%;
     }
     
     #grade2{
@@ -289,12 +292,3 @@
         margin: 0px auto;
     }
 }
-<<<<<<< HEAD
-=======
-
-/* Media Queries: Tabled Portrait
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-} */
->>>>>>> 74ec5c3c222c9add1d52e6e50213187d0b3f7715
