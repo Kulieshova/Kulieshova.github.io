@@ -58,25 +58,25 @@
     }
 
     #overlay {
-        height: 100%;
+        height: 1500px;
         width: 100%;
         background-color: #f55f084f;
         position: relative;
-        z-index: 111111111;
-        /* top: -450px; */
+        z-index: 9111111111;
+        top: -550px;
         /* left: 0px; */
         visibility: hidden;
         filter: blur(2px);
     }
 
     #horse_vision {
-        height: 100%;
+        height: 1500px;
         width: 20%;
         background-color: #000000;
         position: relative;
         z-index: 2222222222;
         margin: 0px auto;
-        /* top: -900px; */
+        top: -1850px;
         visibility: hidden;
     }
 
@@ -146,6 +146,7 @@
 
     #sparrow {
         left: 20px;
+        top: 3px;
         border: solid 1px turquoise;
     }
     
@@ -164,7 +165,8 @@
     #cow {
         left: 20px;
         border-radius: 100px;
-        border: solid 1px #9446b8;;
+        border: solid 1px #9446b8;
+        top: 3px;
     }
 
     .images:hover {
