@@ -92,7 +92,7 @@
         box-shadow: 0px 7px 25px 3px 	#b5b6b483;
         position: relative;
         left: 630px;
-        top: -620px;
+        top: -540px;
         font-family: 'Comfortaa', cursive;
     }
 
@@ -141,34 +141,35 @@
     .buttons1{
         position: relative;
         /* background-color: chartreuse; */
-        width: 550px;
+        width: auto;
         margin: 0px auto;
-        top: -15px;
+        /* padding: 0px auto; */
+        top: -55px;
     }
 
     #sparrow {
-        left: 60px;
+        left: 20px;
         top: -20px;
         border: solid 1px turquoise;
     }
 
     #horse {
-        left: 40px;
-        top: -20px;
-    }
-
-    #snake {
-        left: 20px;
-        top: -20px;
-    }
-
-    #dog {
         left: 0px;
         top: -20px;
     }
 
-    #cow {
+    #snake {
         left: -20px;
+        top: -20px;
+    }
+
+    #dog {
+        left: -40px;
+        top: -20px;
+    }
+
+    #cow {
+        left: -60px;
         top: -20px;
         border-radius: 100px;
         border: solid 1px #9446b8;;
@@ -272,10 +273,12 @@
 
     .gifs1 {
         height: 300px;
+        width: auto;
     }
 
     .gif {
         width: 450px;
+        height: auto;
     }
 
     #grade2{

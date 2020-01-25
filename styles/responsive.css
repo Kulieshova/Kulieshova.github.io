@@ -282,12 +282,14 @@
 
     .gifs1 {
         width: 80%;
+        height: auto;
         position: relative;
         /* top: -40px; */
     }
 
     .gif {
         width: 90%;
+        height: auto;
     }
     
     #grade2{
