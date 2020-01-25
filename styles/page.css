@@ -21,27 +21,29 @@
     }
 
     .video {
-        background-color: #ff1e0000;
-        height: 360px;
-        width: 480px;
+        /* background-color: #ff1e00; */
+        width: 90%;
+        height: auto;
         position: relative;
-        left: 100px;
+        /* /* left: 100px; */
         top: -35px;
         z-index: 1;
         overflow: hidden;
     }
 
     #video_demo {
-        left: 0px;
-        top: 0px;
+        /* left: 0px;
+        top: 0px; */
+        width: 100%;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg); /* Safari and Chrome */
         -moz-transform:rotateY(180deg); /* Firefox */
+        margin: 0px;
     }
 
     #overlay {
-        height: 500px;
-        width: 500px;
+        height: 1500px;
+        width: 1500px;
         background-color: #f55f084f;
         position: relative;
         z-index: 111111111;
@@ -52,13 +54,13 @@
     }
 
     #horse_vision {
-        height: 400px;
-        width: 100px;
+        height: 2000px;
+        width: 20%;
         background-color: #000000;
         position: relative;
         z-index: 2222222222;
-        top: -900px;
-        left: 210px;
+        margin: 0px auto;
+        top: -2350px;
         visibility: hidden;
     }
 
@@ -144,7 +146,8 @@
         width: auto;
         margin: 0px auto;
         /* padding: 0px auto; */
-        top: -55px;
+        top: 0px;
+        left: -50px;
     }
 
     #sparrow {
