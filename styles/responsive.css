@@ -250,9 +250,9 @@
         margin: 0px auto;
     }
      
-    #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    #btn0:active, #btn1:active, #btn2:active, #btn3:active {
         cursor: pointer;
-        background-color: #00eeff;
+        background-color: #00ccff;
     }
      
     #progress {
