@@ -8,12 +8,44 @@
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     <link rel="stylesheet" type="text/css" href="styles/tablet.css">
     <link rel="stylesheet" type="text/css" href="styles/page.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="/home/kulieshova/jas/assets/css/main.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"> -->
     <title>EyeTech by Nataliia Kulieshova</title>
 </head>
 <body>
-    <h1 class="text" id="h1name"> <img src="images/logo.png" id="logo" onclick="eyetech()"> EYETECH<br></h1>
-    <h4 class="text" id="byme">made by Nataliia Kulieshova</h4>
+    <div id="header">
+
+        <!-- Inner -->
+        <div class="inner">
+            <header>
+                <h1>EYETECH</h1>
+                <hr />
+                <p style="color:black;">Симулятор тваринного зору <br>made by Kulieshova</p>
+            </header>
+            <footer>
+                <a href="#banner" class="button circled scrolly">Розпочати</a>
+            </footer>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <!-- <li><a href="index.html">Головна</a></li> -->
+                <li><a href="left-sidebar.html">Відео-імітація</a></li>
+                <li><a href="right-sidebar.html">Вікторина</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <section id="banner">
+        <header>
+            <h1 style="font-size: 40px; font-weight: 300;">Вітаємо на сторінці <strong style="font-weight: 900;">Eyetech</strong>.</h1>
+            <p>
+                Завдяки цьому симулятору тваринного зору, ти зможеш побачити світ інакше - так, як бачать його наші
+                улюблені тваринки.
+            </p>
+        </header>
+    </section>
     <div class="background" id="all">
         <div class="video_buttons">
             <div class ="video" id ="video1">
@@ -28,19 +60,19 @@
             
             <div class="buttons1">
 
-                <img src="images/buttons/button_sparrow.png" class="images button" id="sparrow" onclick="infoSparrow()">
+                <img src="images/buttons/button_sparrow.png" class="images buttonz" id="sparrow" onclick="infoSparrow()">
         
-                <img src="images/buttons/button_horse.png" class="images button" id="horse" onclick="infoHorse()">
+                <img src="images/buttons/button_horse.png" class="images buttonz" id="horse" onclick="infoHorse()">
         
-                <img src="images/buttons/button_snake.png" class="images button" id="snake" onclick="infoSnake()">
+                <img src="images/buttons/button_snake.png" class="images buttonz" id="snake" onclick="infoSnake()">
         
-                <img src="images/buttons/button_dog.png" class="images button" id="dog" onclick="infoDog()">
+                <img src="images/buttons/button_dog.png" class="images buttonz" id="dog" onclick="infoDog()">
                 
-                <img src="images/buttons/button_cow.png" class="images button" id="cow" onclick="infoCow()">
+                <img src="images/buttons/button_cow.png" class="images buttonz" id="cow" onclick="infoCow()">
             </div>
         </div>
 
-        <div class="info" section id="info_section">
+        <div class="info"><section id="info_section">
             <h1 id="infoname"><strong>Технологія EYETECH</strong></h1>
             <p id="information">Веб-додаток EYETECH (з англ. "eye"- око, "tech" - скорочено від 
             "technology" - технологія) - це комп'ютерна імітація тваринного 
@@ -52,13 +84,11 @@
         </div>
     </div>
     
-        <section id="quiz_section">
+        <div id="quiz_section">
         <div class="grid">
+            
             <div id="quiz">
-                <section id="quiz_banner">
-                    <h1 class="text1" id="name_quiz"> Перевір свої знання</h1> 
-                </section>
-                
+                <h1 style="font-size: 45px; text-align: center;">Перевір знання</h1>
                 <p id="question" class="text1"></p>
      
                 <div class="buttons">
@@ -72,8 +102,9 @@
                 </footer>
             </div>
             <p id="grade2" class="text1"></p>
-        
-    </section>
+        </div>
+    </div>
+    
 </body>
         <script src="page.js" type="text/JavaScript"></script>
 </html>

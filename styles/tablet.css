@@ -3,9 +3,7 @@
     body {
         position: relative;
         z-index: 1;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+background-color: #F0F4F4;
         /* width: auto; */
         margin: 0px;
     }
@@ -19,13 +17,13 @@
     }
 
     .text {
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Source Sans Pro', sans-serif;
         text-align: center;
         position: relative;
     }
     
     .text1 {
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Source Sans Pro', sans-serif;
     }
     
     #h1name {
@@ -66,7 +64,7 @@
         background-color: #f55f084f;
         position: relative;
         z-index: 9111111111;
-        top: -550px;
+        top: -700px;
         visibility: hidden;
         filter: blur(2px);
     }
@@ -90,7 +88,7 @@
         width: 100%;
         height: auto;
         position: relative;
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Source Sans Pro', sans-serif;
         text-align: left;
         margin-top: 15px;
         /* padding: 5px; */
@@ -121,7 +119,6 @@
     .images {
         /* height: 40px; */
         width: 100%;
-        border-radius: 100px;
         /* position: relative; */
         transition: all .2s ease-in-out;
         /* margin: 0px; */
@@ -151,7 +148,6 @@
     #sparrow {
         left: 20px;
         top: 3px;
-        border: solid 1px turquoise;
     }
     
     #horse {
@@ -168,14 +164,11 @@
     
     #cow {
         left: 20px;
-        border-radius: 100px;
-        border: solid 1px #9446b8;
         top: 3px;
     }
 
     .images:hover {
         transform: scale(1.1);
-        box-shadow: 0px 2px 25px 10px	#fff1f1;
     }
     
     #logo:hover {
@@ -212,18 +205,14 @@
     }
     
     #quiz_banner {
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         font-size: 30px;
         width: 95%;
         margin: 0px auto;
         text-align: center;
         position: relative;
         color: #ffffff;
-        /* padding: 2px 0px; */
         border-radius: 10px;
-        top: 5px;
+        line-height:0em;
     }
      
     #score {
@@ -275,17 +264,10 @@
     
     #results {
         text-align: center;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
         font-size: 30px;
-        color: #ffffff;
-        /* padding: 30px; */
-        border-radius: 10px;
-        width: 90%;
+        color: #252525;
         margin: 0px auto;
         position: relative;
-        top: 10px;
     }
 
     .gifs1 {

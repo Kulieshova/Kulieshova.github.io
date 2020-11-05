@@ -213,16 +213,16 @@ function showScores() {
 
 // Stores questions and correct answers
 var questions = [
-    new Question("<p>Хто з перелічених тварин <strong>НЕ</strong> є дальтоником?</p><br><img src = 'images/questions/daltonism.gif' class='gifs1'>", ["Кінь", "Горобець", "Змія", "Собака"], "Змія"),
-    new Question("<p>Який птах завжди носить <em>'рожеві окуляри'</em>?</p> <br><img src = 'images/questions/glasses.gif' class='gifs1'>", ["Ворона", "Голуб", "Гусак", "Горобець"], "Горобець"),
-    new Question("<p>Оберіть картинку, на якій зображено світ очима собаки.</p><br><img src = 'images/questions/doggo.gif' class='gifs1'>", ["<img src = 'images/questions/quizpic_dog.png' height = '125px'>", "<img src = 'images/questions/quizpic_snake.png' height = '125px'>","<img src = 'images/questions/quizpic_human.png' height = '125px'>", "<img src = 'images/questions/quizpic_horse.png' height = '125px'>"], "<img src = 'images/questions/quizpic_dog.png' height = '125px'>"),
-    new Question("<p>Хто з поданих тварин найкраще бачить у темряві?</p><br><img src = 'images/questions/night.gif' class='gifs1'>", ["Курка", "Корова", "Собака", "Вівця"], "Собака"),
-    new Question("<p>Чому твердження <em><strong>'Корови не люблять речі червоного кольору'</strong></em> - хибне?</p><br><img src = 'images/questions/cow.gif' class='gifs1'>", ["Вони не розрізняють кольори", "Корови не люблять <em>синій</em> колір", "Вони люблять червоний колір", "Твердження є правильним"], "Вони не розрізняють кольори"),
-    new Question("<p>У кого по центру виникає 'сліпа зона'?</p><br><img src = 'images/questions/blind.gif' class='gifs1'>", ["Лисиця", "Кінь", "Жаба", "Корова"], "Кінь"),
-    new Question("<p>Хто вважається власником найпотужніших очей по параметру розрізнення кольорів і відтінків?</p><br><img src = 'images/questions/eyes.gif' class='gifs1'>", ["Голуб", "Змія", "Вівця", "Сова"], "Голуб"),
-    new Question("<p>Яка тварина бачить у двох режимах: звичайний(як і люди) і тепловий(розрізняють тепло, що виділяють предмети)?</p><br><img src = 'images/questions/snake.gif' class='gifs1'>", ["Бик", "Акула", "Риби", "Змія"], "Змія"),
-    new Question("<p>Визначте істинні твердження:<br><br>1. Собаки гірше за людину бачать у темряві.<br>2. Собаки здатні фокусуватись навіть на мінімальному русі.</p><br><img src = 'images/questions/doggy.gif' class='gifs1'>", ["1", "2","1 і 2", "Жодна"], "2"),
-    new Question("<p>Яка тварина може бачити майже на 360 градусів?</p><br><img src = 'images/questions/360.gif' class='gifs1'>", ["Кіт", "Кінь", "Заєць", "Усі перелічені"], "Заєць")
+    new Question("<p style='text-align: center;'>Хто з перелічених тварин <strong>НЕ</strong> є дальтоником?</p><br><img src = 'images/questions/daltonism.gif' class='gifs1'>", ["Кінь", "Горобець", "Змія", "Собака"], "Змія"),
+    new Question("<p style='text-align: center;'>Який птах завжди носить <em>'рожеві окуляри'</em>?</p> <br><img src = 'images/questions/glasses.gif' class='gifs1'>", ["Ворона", "Голуб", "Гусак", "Горобець"], "Горобець"),
+    new Question("<p style='text-align: center;'>Оберіть картинку, на якій зображено світ очима собаки.</p><br><img src = 'images/questions/doggo.gif' class='gifs1'>", ["<img src = 'images/questions/quizpic_dog.png' height = '125px'>", "<img src = 'images/questions/quizpic_snake.png' height = '125px'>","<img src = 'images/questions/quizpic_human.png' height = '125px'>", "<img src = 'images/questions/quizpic_horse.png' height = '125px'>"], "<img src = 'images/questions/quizpic_dog.png' height = '125px'>"),
+    new Question("<p style='text-align: center;'>Хто з поданих тварин найкраще бачить у темряві?</p><br><img src = 'images/questions/night.gif' class='gifs1'>", ["Курка", "Корова", "Собака", "Вівця"], "Собака"),
+    new Question("<p style='text-align: center;'>Чому твердження <em><strong>'Корови не люблять речі червоного кольору'</strong></em> - хибне?</p><br><img src = 'images/questions/cow.gif' class='gifs1'>", ["Вони не розрізняють кольори", "Корови не люблять <em>синій</em> колір", "Вони люблять червоний колір", "Твердження є правильним"], "Вони не розрізняють кольори"),
+    new Question("<p style='text-align: center;'>У кого по центру виникає 'сліпа зона'?</p><br><img src = 'images/questions/blind.gif' class='gifs1'>", ["Лисиця", "Кінь", "Жаба", "Корова"], "Кінь"),
+    new Question("<p style='text-align: center;'>Хто вважається власником найпотужніших очей по параметру розрізнення кольорів і відтінків?</p><br><img src = 'images/questions/eyes.gif' class='gifs1'>", ["Голуб", "Змія", "Вівця", "Сова"], "Голуб"),
+    new Question("<p style='text-align: center;'>Яка тварина бачить у двох режимах: звичайний(як і люди) і тепловий(розрізняють тепло, що виділяють предмети)?</p><br><img src = 'images/questions/snake.gif' class='gifs1'>", ["Бик", "Акула", "Риби", "Змія"], "Змія"),
+    new Question("<p style='text-align: center;'>Визначте істинні твердження:<br><br>1. Собаки гірше за людину бачать у темряві.<br>2. Собаки здатні фокусуватись навіть на мінімальному русі.</p><br><img src = 'images/questions/doggy.gif' class='gifs1'>", ["1", "2","1 і 2", "Жодна"], "2"),
+    new Question("<p style='text-align: center;'>Яка тварина може бачити майже на 360 градусів?</p><br><img src = 'images/questions/360.gif' class='gifs1'>", ["Кіт", "Кінь", "Заєць", "Усі перелічені"], "Заєць")
 ];
  
 // Creates quiz at the page
