@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 
 /* Media Queries: Laptop */
+html{
+    scroll-behavior: smooth;
+}
 @media (min-width: 990px) {
 
     body {
