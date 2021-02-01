@@ -41,8 +41,8 @@ function eyetech()
 // Sparrow's vision
 function infoSparrow()
 {
-    infoName.innerHTML = "Горобець";
-    information.innerHTML = "Горобці бачать все навколо в відтінках рожевого: від світлого до фіолетового. Закінчення світлочутливих нервів в їх сітківці (так звані колбочки) несуть в собі маслянисті жовто-червоні крапельки. Ці крихітні крапельки діють як світлофільтри, що послаблюють зелені і сині промені і пропускають червоні, тому птахи сприймають світ у відтінках рожевого. При цьому горобці не люблять синій колір, а блискучі предмети їх лякають.";
+    infoName.innerHTML = "Sparrow";
+    information.innerHTML = "Sparrows see everything around in shades of pink: from light to purple. The ends of light-sensitive nerves in their retina (so-called cones) carry oily yellow-red droplets. These tiny droplets act as light filters, attenuating green and blue rays and transmitting red, so birds perceive the world in shades of pink. In this case, sparrows do not like blue, and shiny objects scare them.";
     human.play();
     infobg.style.backgroundImage = "";
     overlay.style.backgroundColor = "#e357ff63";
@@ -55,8 +55,8 @@ function infoSparrow()
 // Cow's vision
 function infoCow()
 {
-    infoName.innerHTML = "Корова";
-    information.innerHTML = "Корови - дальтоніки особливі . Вони здатні бачити лише у червоно-помаранчевих кольорах. До речі, мало хто знає, але у кориді червоне полотно застосовується виключно для залучення поглядів глядачів, а не бика, так як бики, також як і корови, через їх дальтонізм просто не здатні розрізнити чи то синім, чи то червоним кольором забарвлене полотно. А їх лють виникає виключно із-за того, що перед ними махають якоюсь незрозумілою ганчіркою.";
+    infoName.innerHTML = "Cow";
+    information.innerHTML = "Cows are color-blind. They can only see in red and orange. By the way, few people know, but in bullfighting red cloth is used only to attract the eyes of spectators, not the bull, as bulls, as well as cows, because of their color blindness simply can not distinguish either blue or red colored canvas. And their anger arises solely due to the fact that in front of them they wave some incomprehensible rag.";
     human.play();
     infobg.style.backgroundImage = "";
     overlay.style.backgroundColor = "#f55f084f";
@@ -69,8 +69,8 @@ function infoCow()
 // Horse's vision
 function infoHorse()
 {
-    infoName.innerHTML = "Кінь";
-    information.innerHTML = "Кінь, як і людина, сприймає окремо зображення від правого та від лівого ока. Ми не помічаємо цього, тому що зображення, отримані кожним оком підсвідомо об'єднуються у зоровому аналізаторі (корі головного мозку) в єдиний образ. Очі у коня розташовані по різні сторони голови, тому дві картинки не нашаровуються, і вони не бачать рельєфно. До того ж по центру виникає «сліпа зона» - те що не «засікає» ні праве, ні ліве око.";
+    infoName.innerHTML = "Horse";
+    information.innerHTML = "The horse, like man, perceives the image separately from the right and left eye. We do not notice this, because the images obtained by each eye are subconsciously combined in a visual analyzer (cerebral cortex) into a single image. The horse's eyes are located on different sides of the head, so the two pictures are not layered, and they do not see in relief. In addition, there is a 'blind spot' in the center - something that does not 'detect' either the right or left eye.";
     human.play();
     overlay.style.visibility = "visible";
     overlay.style.backgroundColor = "#f3cc4b63";
@@ -82,8 +82,8 @@ function infoHorse()
 // Snake's vision
 function infoSnake()
 {
-    infoName.innerHTML = "Змія";
-    information.innerHTML = "Змії бачать в двох режимах. В першому режимі вони бачать як люди, при чому досить добре розрізняють всі кольори. В другому режимі змії бачать світ немов інфрачервоний датчик, розрізняючи тепло, яке випромінюють живі істоти. Якщо ви настільки невезучий, що зустріли змію, коли вона дивиться на світ в другому режимі, то вам вже не врятуватися і не втекти. На щастя, більшість змій швидше відступить ніж атакуватиме людину.";
+    infoName.innerHTML = "Snake";
+    information.innerHTML = "Snakes see in two modes. In the first mode, they see as humans, and quite well distinguish all colors. In the second mode, snakes see the world as an infrared sensor, distinguishing the heat emitted by living beings. If you are so unlucky that you met a snake when it looks at the world in the second mode, then you can not escape and do not run away. Fortunately, most snakes retreat faster than they attack humans.";
     human.play();
     video.style.filter = "saturate(10)";
     overlay.style.visibility = "hidden";
@@ -93,8 +93,8 @@ function infoSnake()
 // Dog's vision
 function infoDog()
 {
-    infoName.innerHTML = "Собака";
-    information.innerHTML = "Собаки теж дальтоніки, але здебільшого бачать світ у жовтому і синьому кольорах. І хоча вони набагато краще за людину бачать у недостатньому освітленні, гострота їхнього зору значно нижча (предмети, які ви бачите чітко, видаються вашому улюбленцю розмитими). Око собаки здатне прекрасно розрізняти та фокусуватися навіть на мінімальному русі. Через вдале розташування очей і собаки, і коти мають краще сприйняття перспективи і глибини, ніж людина.";
+    infoName.innerHTML = "Dog";
+    information.innerHTML = "Dogs are also colorblind, but mostly see the world in yellow and blue. And although they see much better than humans in low light, their visual acuity is much lower (objects that you see clearly seem blurred to your pet). The dog's eye is able to perfectly distinguish and focus even on minimal movement. Due to the good location of the eyes, both dogs and cats have a better perception of perspective and depth than humans. ";
     human.play();
     overlay.style.visibility = "visible";
     overlay.style.backgroundColor = "#1f6ed64b";
@@ -189,7 +189,7 @@ grading = [
         {score:7,feedback:"Ти на фінішній прямій! Довчи матеріал і спробуй ще!", image: "7.gif"},
         {score:8,feedback:"Ти на фінішній прямій! Довчи матеріал і спробуй ще!", image: "8.gif"},
         {score:9,feedback:"Як тобі таке, Ілон Маск?;)", image: "9.gif"},
-        {score:10,feedback:"Твоєму розуму заздрить сам Енштейн!", image: "10.gif"}
+        {score:10,feedback:"Even Einstein envies your intelligence!", image: "10.gif"}
     ]; 
 // Shows the results at the end   
 function showScores() {
@@ -215,7 +215,7 @@ function showScores() {
 var questions = [
     new Question("<p style='text-align: center;'>Хто з перелічених тварин <strong>НЕ</strong> є дальтоником?</p><br><img src = 'images/questions/daltonism.gif' class='gifs1'>", ["Кінь", "Горобець", "Змія", "Собака"], "Змія"),
     new Question("<p style='text-align: center;'>Який птах завжди носить <em>'рожеві окуляри'</em>?</p> <br><img src = 'images/questions/glasses.gif' class='gifs1'>", ["Ворона", "Голуб", "Гусак", "Горобець"], "Горобець"),
-    new Question("<p style='text-align: center;'>Оберіть картинку, на якій зображено світ очима собаки.</p><br><img src = 'images/questions/doggo.gif' class='gifs1'>", ["<img src = 'images/questions/quizpic_dog.png' height = '125px'>", "<img src = 'images/questions/quizpic_snake.png' height = '125px'>","<img src = 'images/questions/quizpic_human.png' height = '125px'>", "<img src = 'images/questions/quizpic_horse.png' height = '125px'>"], "<img src = 'images/questions/quizpic_dog.png' height = '125px'>"),
+    new Question("<p style='text-align: center;'>Choose a picture that shows the world through the eyes of a dog.</p><br><img src = 'images/questions/doggo.gif' class='gifs1'>", ["<img src = 'images/questions/quizpic_dog.png' height = '125px'>", "<img src = 'images/questions/quizpic_snake.png' height = '125px'>","<img src = 'images/questions/quizpic_human.png' height = '125px'>", "<img src = 'images/questions/quizpic_horse.png' height = '125px'>"], "<img src = 'images/questions/quizpic_dog.png' height = '125px'>"),
     new Question("<p style='text-align: center;'>Хто з поданих тварин найкраще бачить у темряві?</p><br><img src = 'images/questions/night.gif' class='gifs1'>", ["Курка", "Корова", "Собака", "Вівця"], "Собака"),
     new Question("<p style='text-align: center;'>Чому твердження <em><strong>'Корови не люблять речі червоного кольору'</strong></em> - хибне?</p><br><img src = 'images/questions/cow.gif' class='gifs1'>", ["Вони не розрізняють кольори", "Корови не люблять <em>синій</em> колір", "Вони люблять червоний колір", "Твердження є правильним"], "Вони не розрізняють кольори"),
     new Question("<p style='text-align: center;'>У кого по центру виникає 'сліпа зона'?</p><br><img src = 'images/questions/blind.gif' class='gifs1'>", ["Лисиця", "Кінь", "Жаба", "Корова"], "Кінь"),
